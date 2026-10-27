@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1E2329">
+  <title>虛詞偵探社：乃、莫、因、為、焉</title>
+  <link rel="preload" href="fonts/kai.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar no-print">
+    <a class="brand" href="#/hall">虛詞偵探社</a>
+    <nav class="topnav" aria-label="主選單">
+      <a class="id-chip" id="id-chip" href="#/start">偵探證</a>
+      <a href="#/hall">檔案櫃</a>
+      <a href="#/notebook">偵探筆記</a>
+      <span class="font-ctrl" role="group" aria-label="字體大小">
+        <button type="button" data-font="0" aria-label="字體：標準">A</button>
+        <button type="button" data-font="1" aria-label="字體：較大">A+</button>
+        <button type="button" data-font="2" aria-label="字體：最大">A++</button>
+      </span>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <!-- 供讀屏軟件讀出回饋 -->
+  <div id="live" class="visually-hidden" role="status" aria-live="polite"></div>
+
+  <noscript>本遊戲需要啟用 JavaScript。</noscript>
+
+  <script src="cases.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
